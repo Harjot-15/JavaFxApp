@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="10" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.javafxapp.controllers.NewEmployeeController">
+    <Label text="Add New Employee"/>
+    <TextField fx:id="empIdField" promptText="Employee ID"/>
+    <TextField fx:id="nameField" promptText="Employee Name"/>
+    <TextField fx:id="addressField" promptText="Address"/>
+    <TextField fx:id="phoneField" promptText="Phone"/>
+    <TextField fx:id="deptNoField" promptText="Department No"/>
+    <TextField fx:id="deptNameField" promptText="Department Name"/>
+    <TextField fx:id="salaryField" promptText="Salary"/>
+    <Button text="Add Employee" onAction="#handleAddEmployee"/>
+    <Label fx:id="messageLabel"/>
+</VBox>

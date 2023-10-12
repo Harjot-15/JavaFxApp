@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="20" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.javafxapp.controllers.HomeController">
+    <Button text="Update Employee Data" onAction="#handleUpdateEmployee"/>
+    <Button text="Create New Employee" onAction="#handleCreateEmployee"/>
+    <Button text="Delete Existing Employee" onAction="#handleDeleteEmployee"/>
+</VBox>

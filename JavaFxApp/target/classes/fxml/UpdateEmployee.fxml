@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="20" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.javafxapp.controllers.UpdateEmployeeController">
+    <Label text="Update Employee Salary"/>
+    <TextField fx:id="empIdField" promptText="Employee ID"/>
+    <TextField fx:id="incrementField" promptText="Percentage Increment"/>
+    <Button text="Update Salary" onAction="#handleUpdateSalary"/>
+    <Label fx:id="messageLabel"/>
+</VBox>
